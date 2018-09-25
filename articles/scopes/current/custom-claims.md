@@ -7,11 +7,11 @@ contentType:
 useCase:
   - development
 ---
-# Custom Claims
+# Use Custom Claims
 
 When adding custom claims to ID or Access Tokens, they must [conform to a namespaced format](/api-auth/tutorials/adoption/scope-custom-claims). This is to avoid any possible collision with standard OIDC claims.
 
-## Example: add custom claims
+## Example: Add custom claims
 
 Suppose that:
 
