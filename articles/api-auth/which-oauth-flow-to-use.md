@@ -6,7 +6,7 @@ topics:
   - api-authentication
   - oidc
   - application-grants
-contentType: discussion
+contentType: concept
 useCase:
   - secure-api
   - call-api
