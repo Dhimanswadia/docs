@@ -3,11 +3,12 @@ description: Overview of API scopes
 topics:
   - scopes
 contentType:
+  - reference
   - how-to
 useCase:
   - development
 ---
-# Use API Scopes
+# API Scopes
 
 API scopes allow you to define the API data accessible to your applications. 
 
