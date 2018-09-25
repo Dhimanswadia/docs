@@ -7,7 +7,7 @@ contentType:
 useCase:
   - development
 ---
-# API Scopes
+# Use API Scopes
 
 API scopes allow you to define the API data accessible to your applications. 
 
