@@ -3,6 +3,7 @@ description: Overview of OIDC Connect scopes
 topics:
   - scopes
 contentType:
+  - reference
   - how-to
 useCase:
   - development
