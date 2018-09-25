@@ -17,7 +17,7 @@ By default, any user associated with an [Auth0 application](/applications) can r
 
 ## Example: Deny access based on the API audience
 
-The following [rule](/rules), demonstrates how you would deny access on an API, depending on the `audience` parameter. In this example, we deny access to all users, if the API they are trying to access has the `audience` set to `http://todoapi2.api`.
+The following [rule](/rules) demonstrates how you would deny access on an API depending on the `audience` parameter. In this example, we deny access to all users if the API they are trying to access has the `audience` set to `http://todoapi2.api`.
 
 ```js
 function (user, context, callback) {
@@ -46,7 +46,7 @@ The value of an API's `audience` is displayed at the **API Audience** field, at 
 
 ## Example: Deny access based on the Client ID
 
-The following [rule](/rules), demonstrates how you would deny access on an API, depending on the application the user is associated with. In this example, we deny access to all users, if the application through which they login, has an ID equal to `CLIENT_ID` (this is equivalent to disabling **all** Connections for the application).
+The following [rule](/rules) demonstrates how you would deny access on an API depending on the application with which the user is associated. In this example, we deny access to all users if the application through which they log in has an ID equal to `CLIENT_ID` (this is equivalent to disabling **all** Connections for the application).
 
 ```js
 function (user, context, callback) {
@@ -67,5 +67,5 @@ function (user, context, callback) {
 ```
 
 ::: note
-The value of a client's Id is displayed at the **Client ID** field, at [Dashboard > Applications](${manage_url}/#/applications).
+The value of a client's ID is displayed in the **Client ID** field at [Dashboard > Applications](${manage_url}/#/applications).
 :::
