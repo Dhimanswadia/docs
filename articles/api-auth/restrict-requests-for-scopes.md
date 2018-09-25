@@ -4,8 +4,9 @@
   - api-authentication
   - oidc
   - scopes
-contentType: how-to
-useCase:
+  contentType: 
+  - how-to
+  useCase:
   - secure-api
   - call-api
 ---
