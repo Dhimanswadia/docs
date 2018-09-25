@@ -1,4 +1,5 @@
----Which OAuth 2.0 Flow Should I Use?
+---
+title: Which OAuth 2.0 Flow Should I Use?
 toc: true
 description: Helps the user identify the proper OAuth 2.0 grant for each use case.
 topics:
