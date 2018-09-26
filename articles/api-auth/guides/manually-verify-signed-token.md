@@ -1,5 +1,4 @@
 ---
-url: /apis
 title: Manually Verify a Signed Token
 description: Learn the basics of manually verifying tokens signed with signing algorithms.
 topics:
