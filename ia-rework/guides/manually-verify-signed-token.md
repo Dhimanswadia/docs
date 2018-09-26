@@ -6,6 +6,9 @@ topics:
   - api-authentication
   - oidc
   - apis
+  - signing-algorithms
+  - RS256
+  - token
 contentType: concept
 useCase:
   - secure-api
