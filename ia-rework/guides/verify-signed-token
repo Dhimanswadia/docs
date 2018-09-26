@@ -1,7 +1,7 @@
 ---
 url: /guides
-title: Verify a Signed Token
-description: Learn the basics of verifying tokens signed with signing algorithms.
+title: Manually Verify a Signed Token
+description: Learn the basics of manually verifying tokens signed with signing algorithms.
 topics:
   - api-authentication
   - oidc
@@ -12,9 +12,9 @@ useCase:
   - call-api
 ---
 
-# Verify an RS256-signed Token
+# Manually Verify an RS256-signed Token
 
-To use the Public Key to verify a JWT Signature on the [JWT.io](https://jwt.io) website, you will need to find and copy the Public Key in Auth0 and use it in the [JWT.io Debugger](https://jwt.io/#debugger) website.  
+To use the Public Key to manually verify a JWT Signature on the [JWT.io](https://jwt.io) website, you will need to find and copy the Public Key in Auth0 and use it in the [JWT.io Debugger](https://jwt.io/#debugger).  
 
 ## Copy the Public Key in Auth0
 
@@ -26,7 +26,11 @@ To use the Public Key to verify a JWT Signature on the [JWT.io](https://jwt.io) 
 ## Verify the JWT Signature
 
 1. Visit [JWT.io Debugger](https://jwt.io/#debugger).
-2. Locate the **Verify Signature** section, and paste the Public Key in the **Public Key or Certificate** field.
+2. From the **Algorithm** dropdown, choose RS256.
+3. In the **Verify Signature** section, paste the Public Key in the **Public Key or Certificate** field.
+4. In the **Encoded** section, paste the JWT you want to verify.
 
-If you want to verify the signature of a token from one of your applications, we recommend that you get the Public Key from your tenant's [JSON Web Key Set (JWKS)](/jwks). Your tenant's JWKS is `https://${account.namespace}/.well-known/jwks.json`.
+
+::: note
+To verify the signature of a token from within one of your applications, we recommend that you use the Public Key from your tenant's [JSON Web Key Set (JWKS)](/jwks). Your tenant's JWKS is `https://${account.namespace}/.well-known/jwks.json`.
 :::
