@@ -1,6 +1,20 @@
-## Dashboard Views for APIs
+---
+title: Auth0 Dashboard API Views
+description: Learn about the API Views available through the Auth0 Dashboard.
+topics:
+  - api-authentication
+  - oidc
+  - apis
+  - dashboard
+contentType: reference
+useCase:
+  - secure-api
+  - call-api
+---
 
-Other available views for your API include:
+# Dashboard Views for APIs
+
+Available views for your API include:
 
 - **Settings**: lists the settings for your API, some of which are editable. In this section, you can change the token expiration time and enable offline access (so that Auth0 will allow applications to ask for Refresh Tokens for this API). For details, see [API Settings](/api-auth/references/dashboard/api-settings).
 
