@@ -1,5 +1,4 @@
 ---
-url: /api-auth
 title: Configure an API in Auth0
 description: Learn how to configure an API using the Auth0 Dashboard.
 topics:
