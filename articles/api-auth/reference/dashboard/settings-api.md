@@ -1,5 +1,5 @@
 ---
-title: Auth0 Dashboard: API Settings
+title: Auth0 Dashboard API Settings
 description: Learn about the API Settings available through the Auth0 Dashboard.
 topics:
   - api-authentication
@@ -12,7 +12,7 @@ useCase:
   - call-api
 ---
 
-### API Settings
+# API Settings
 
 Click on the *Settings* tab of your [API](${manage_url}/#/apis) to review the available settings:
 
