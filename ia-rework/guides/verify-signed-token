@@ -1,7 +1,32 @@
-::: panel Verify an RS256 signed token
-Go to [Dashboard > Applications](${manage_url}/#/applications). Open the **Settings** of your applications, scroll down and open **Advanced Settings**. Open the **Certificates** tab, and you will find the Public Key in the **Signing Certificate** field.
+---
+url: /guides
+title: Verify a Signed Token
+description: Learn the basics of verifying tokens signed with signing algorithms.
+topics:
+  - api-authentication
+  - oidc
+  - apis
+contentType: concept
+useCase:
+  - secure-api
+  - call-api
+---
 
-If you want to use the Public Key to verify a JWT signature on [JWT.io](https://jwt.io/), you can copy the Public Key and paste it in the **Public Key or Certificate** field under the **Verify Signature** section on the [JWT.io](https://jwt.io/) website.
+# Verify an RS256-signed Token
+
+To use the Public Key to verify a JWT Signature on the [JWT.io](https://jwt.io) website, you will need to find and copy the Public Key in Auth0 and use it in the [JWT.io Debugger](https://jwt.io/#debugger) website.  
+
+## Copy the Public Key in Auth0
+
+1. Go to [Dashboard > Applications](${manage_url}/#/applications). 
+2. Open the **Settings** for your application. Scroll down and click ** Show Advanced Settings**. 
+3. Open the **Certificates** tab. 
+4. You will find the Public Key in the **Signing Certificate** field. Copy it.
+
+## Verify the JWT Signature
+
+1. Visit [JWT.io Debugger](https://jwt.io/#debugger).
+2. Locate the **Verify Signature** section, and paste the Public Key in the **Public Key or Certificate** field.
 
 If you want to verify the signature of a token from one of your applications, we recommend that you get the Public Key from your tenant's [JSON Web Key Set (JWKS)](/jwks). Your tenant's JWKS is `https://${account.namespace}/.well-known/jwks.json`.
 :::
