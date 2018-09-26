@@ -19,7 +19,7 @@ To use the Public Key to manually verify a JWT Signature on the [JWT.io](https:/
 ## Copy the Public Key in Auth0
 
 1. Go to [Dashboard > Applications](${manage_url}/#/applications). 
-2. Open the **Settings** for your application. Scroll down and click ** Show Advanced Settings**. 
+2. Open the **Settings** for your application. Scroll down and click **Show Advanced Settings**. 
 3. Open the **Certificates** tab. 
 4. You will find the Public Key in the **Signing Certificate** field. Copy it.
 
