@@ -25,7 +25,7 @@ To use the Public Key to manually verify a JWT Signature on the [JWT.io](https:/
 
 ## Verify the JWT Signature
 
-1. Visit [JWT.io Debugger](https://jwt.io/#debugger).
+1. Go to the [JWT.io Debugger](https://jwt.io/#debugger).
 2. From the **Algorithm** dropdown, choose RS256.
 3. In the **Verify Signature** section, paste the Public Key in the **Public Key or Certificate** field.
 4. In the **Encoded** section, paste the JWT you want to verify.
