@@ -6,6 +6,9 @@ topics:
   - api-authentication
   - oidc
   - apis
+  - signing algorithms
+  - RS256
+  - HS256
 contentType: concept
 useCase:
   - secure-api
