@@ -21,11 +21,7 @@ To configure an [API](/api-auth/apis.md) in Auth0, you will need to access the [
 Inside the API section, you will see one API that has been created automatically--the **Auth0 Management API**. For details about the features of the Management API and its available endpoints, you can visit the [Management API Explorer](/api/management/v2).
 :::
 
-2. Click the **+ Create API** button.
-
-![Create a new API](/media/articles/api/overview/create-api.png)
-
-You need to provide the following information for your API:
+2. Click the **+ Create API** button, and provide the following information for your API before clicking **Create**:
 
 - **Name**: a friendly name for the API. Does not affect any functionality.
 
@@ -33,7 +29,9 @@ You need to provide the following information for your API:
 
 - **Signing Algorithm**: the algorithm to sign the tokens with. The available values are `HS256` and `RS256`. When selecting `RS256` the token will be signed with the tenant's private key. For more details on the signing algorithms go to the [Signing Algorithms paragraph](#signing-algorithms).
 
-Fill in the required information and click the **Create** button.
+![Create a new API](/media/articles/api/overview/create-api.png)
+
+
 
 Once you do so, you will be navigated to the *Quick Start* of your API. Here you can find details on the implementation changes you have to do to your API, which basically consists of choosing a JWT library from a predefined list and configuring this library to validate the Access Tokens in your API.
 
