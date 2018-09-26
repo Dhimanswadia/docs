@@ -30,20 +30,6 @@ Inside the API section, you will see one API that has been created automatically
 
 ![Create a new API](/media/articles/api/overview/create-api.png)
 
-Once you create your API, you will be able to see your API's *Quick Start*, which will guide you through any API code changes you will need to make to implement your API. These generally consist of choosing a JWT library from a pre-defined list and configuring the library to validate the [Access Tokens](/tokens/access-token) in your API.
+Once you create your API, you will be able to see your API's *Quick Start*, which will guide you through any API code changes you will need to make to implement your API. These generally consist of choosing a JWT library from a pre-defined list and configuring the library to validate the [Access Tokens](/tokens/access-token) in your API. You will also see some additional [dashboard views for your API](/api-auth/reference/dashboard/views-for-apis).
 
 ![API Quick Starts](/media/articles/api/overview/quickstarts-view.png)
-
-You will also see some additional dashboard views for your API.
-
-## Dashboard Views for APIs
-
-Other available views for your API include:
-
-- **Settings**: lists the settings for your API, some of which are editable. In this section, you can change the token expiration time and enable offline access (so that Auth0 will allow applications to ask for Refresh Tokens for this API). For details, see [API Settings](/api-auth/references/dashboard/api-settings).
-
-- **Scopes**: allows you to define the scopes for your API by setting scope names and a descriptions.
-
-- **Machine to Machine Applications**: lists all applications for which the **Client Credentials** grant is **enabled**. (By default, this grant is **enabled* for [Regular Web Applications](/applications/webapps) and [Machine to Machine Applications](/applications/machine-to-machine)). You can authorize any listed application to request Access Tokens for your API. Optionally, you can select a subset of the defined scopes to limit an authorized application's access to your API. 
-
-- **Test**: allows you to execute a sample Client Credentials flow with any of the authorized applications so you can check that everything is working as expected.
