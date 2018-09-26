@@ -12,7 +12,7 @@ useCase:
 ---
 # Configure an API in Auth0
 
-To configure an [API](/api-auth/apis.md) in Auth0, you will need to access the [Auth0 Dashboard](${manage.url)}). Once you have done so, you can follow the instructions below.
+To configure an [API](/api-auth/apis.md) in Auth0, you will need to access the [Auth0 Dashboard](${manage.url}). Once you have done so, you can follow the instructions below.
 
 1. From the left menu, click [APIs](${manage_url}/#/apis).
 
@@ -26,7 +26,7 @@ Inside the API section, you will see one API that has been created automatically
 
 - **Identifier**: a unique identifier for the API. We recommend using a URL (this doesn't have to be a publicly available URL; Auth0 will not call your API at all). This value **cannot be modified** afterwards.
 
-- **Signing Algorithm**: the algorithm with which to sign the tokens. The available values are `HS256` and `RS256`. When selecting `RS256`, the token will be signed with your tenant's private key. For more details, visit [Signing Algorithms](/concepts/signing-algorithms).
+- **Signing Algorithm**: the algorithm with which to sign the tokens. The available values are `HS256` and `RS256`. When selecting `RS256`, the token will be signed with your tenant's private key. For more details, visit [Signing Algorithms](/api-auth/concepts/signing-algorithms).
 
 ![Create a new API](/media/articles/api/overview/create-api.png)
 
@@ -40,7 +40,7 @@ You will also see some additional dashboard views for your API.
 
 Other available views for your API include:
 
-- **Settings**: lists the settings for your API, some of which are editable. In this section, you can change the token expiration time and enable offline access (so that Auth0 will allow applications to ask for Refresh Tokens for this API). For details, see [API Settings](/api-auth/dashboard/api-settings).
+- **Settings**: lists the settings for your API, some of which are editable. In this section, you can change the token expiration time and enable offline access (so that Auth0 will allow applications to ask for Refresh Tokens for this API). For details, see [API Settings](/api-auth/references/dashboard/api-settings).
 
 - **Scopes**: allows you to define the scopes for your API by setting scope names and a descriptions.
 
