@@ -25,9 +25,9 @@ Inside the API section, you will see one API that has been created automatically
 
 - **Name**: a friendly name for the API. Does not affect any functionality.
 
-- **Identifier**: a unique identifier for the API. We recommend using a URL but note that this doesn't have to be a publicly available URL, Auth0 will not call your API at all. This value **cannot be modified** afterwards.
+- **Identifier**: a unique identifier for the API. We recommend using a URL (this doesn't have to be a publicly available URL; Auth0 will not call your API at all). This value **cannot be modified** afterwards.
 
-- **Signing Algorithm**: the algorithm to sign the tokens with. The available values are `HS256` and `RS256`. When selecting `RS256` the token will be signed with the tenant's private key. For more details on the signing algorithms go to the [Signing Algorithms paragraph](#signing-algorithms).
+- **Signing Algorithm**: the algorithm with which to sign the tokens. The available values are `HS256` and `RS256`. When selecting `RS256`, the token will be signed with your tenant's private key. For more details, visit [Signing Algorithms](/concepts/signing-algorithms).
 
 ![Create a new API](/media/articles/api/overview/create-api.png)
 
